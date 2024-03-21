@@ -29,6 +29,9 @@ public final class CommissionEmployee extends Employee {
         sales = 0.0;
     }
 
+    public void setRate(double r){
+        rate = r;
+    }
     /**
      * Increases the sales by 100 as a default.
      */
